@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Website Theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #64748b;
+    margin-top: 8px;
+}
+
+/* Notes Section */
+.notes-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.section-description {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* Subjects Container */
+.subjects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* Subject Cards */
+.subject-card {
+    background-color: #ffffff;
+    padding: 28px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.subject-card h3 {
+    font-size: 21px;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.subject-card p {
+    font-size: 15px;
+    color: #64748b;
+}
+
+/* Hover Effect */
+.subject-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    border-color: #93c5fd;
+}
+
+/* Open Notes Button */
+.open-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.open-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .header {
+        padding: 30px 15px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    .notes-section {
+        margin: 25px auto;
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .subjects-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .subject-card {
+        padding: 22px;
+    }
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
