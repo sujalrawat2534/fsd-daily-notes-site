@@ -3,108 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>My Notes Library</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="tailwind-output.css"
 
+    <!-- Normal CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="tailwind-output.css" />
   </head>
+
   <body>
-    <body>
-      <!-- Header -->
-      <header class="header">
-        <h2 class="logo">daily nots and codes</h2>
-        <p class="tagline">daily learning codes, all in one place.</p>
-      </header>
-    
-        <!-- <div>
-          mkdir tailwind-practice <br />
-          cd tailwind-practice <br />
-          npm init -y <br />
-          npm install tailwindcss @tailwindcss/cli <br />
-          npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch
+    <!-- Header -->
+    <header class="header">
+      <h2 class="logo">daily notes and codes</h2>
+
+      <p class="tagline">daily learning codes, all in one place.</p>
+    </header>
+
+    <!-- Notes Section -->
+    <section class="notes-section">
+      <h2 class="section-title">codes here</h2>
+
+      <p class="section-description">
+        Choose a card and explore your daily notes.
+      </p>
+
+      <div class="subjects-container">
+        <!-- HTML Card -->
+        <div class="subject-card">
+          <h3>HTML Notes</h3>
+
+          <p>Learn HTML from basics to advanced.</p>
+
+          <a href="html-notes.html" class="open-btn"> Open Notes → </a>
         </div>
-      </section> -->
 
-      <!-- Notes Section -->
-      <section class="notes-section">
-        <h2 class="section-title">codes here</h2>
-        <p class="section-description">
-          Choose a card and explore your daily notes.
-        </p>
+        <!-- CSS Card -->
+        <div class="subject-card">
+          <h3>CSS Notes</h3>
 
-        <div class="subjects-container">
-          <!-- HTML Card -->
-          <div class="subject-card">
-            <h3>HTML Notees</h3>
-            <p>Learn HTML from basics to advanced.</p>
-            <a href="html-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
+          <p>Learn styling and responsive design.</p>
 
-          <!-- CSS Card -->
-          <div class="subject-card">
-            <h3>CSS Notes</h3>
-            <p>Learn styling and responsive design.</p>
-            <a href="css-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
-
-          <div class="subject-card">
-            <h3>Git Notes</h3>
-            <p>Learn version control with Git.</p>
-            <a href="git-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
-
-          <!-- DOM Card -->
-          <div class="subject-card">
-            <h3>DOM Notes</h3>
-            <p>Learn DOM manipulation and JavaScript interactions.</p>
-            <a href="dom-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
-
-          <!-- FEACH Card -->
-          <div class="subject-card">
-            <h3>FEtCH Notes </h3>
-            <p>Fetch API & Working with REST APIs.</p>
-            <a
-              href="https://app.notion.com/p/fetch-3f1050dc76c7808cab84dcf0c22a623e?source=copy_link"
-              class="open-btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Open Notes →</a
-            >
-          </div>
-
-          <!-- JavaScript Card -->
-          <div class="subject-card">
-            <h3>JavaScript Notes</h3>
-            <p>Learn JavaScript step by step.</p>
-            <a href="javascript-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
-
-          <!-- Tailwind Card -->
-          <div class="subject-card">
-            <h3>Tailwind CSS</h3>
-            <p>Learn utility-first CSS styling.</p>
-            <a href="tailwind-notes.html" class="open-btn"> Open Notes → </a>
-          </div>
-
-          <!-- React Card -->
-
-
-
-
-<!-- tailwind css uploaded -->
-          <!-- <div class="subject-card mt-6 hover:shadow-xl transition">
-    <h3 class="text-xl font-bold">
-        JavaScript Notes
-    </h3>
-
-    <p class="mt-2 text-gray-600">
-        Learn JavaScript step by step.
-    </p> -->
-    
-</div>
+          <a href="css-notes.html" class="open-btn"> Open Notes → </a>
         </div>
-      </section>
-    </body>
+
+        <!-- Git Card -->
+        <div class="subject-card">
+          <h3>Git Notes</h3>
+
+          <p>Learn version control with Git.</p>
+
+          <a href="git-notes.html" class="open-btn"> Open Notes → </a>
+        </div>
+
+        <!-- DOM Card -->
+        <div class="subject-card">
+          <h3>DOM Notes</h3>
+
+          <p>Learn DOM manipulation and JavaScript interactions.</p>
+
+          <a href="dom-notes.html" class="open-btn"> Open Notes → </a>
+        </div>
+
+        <!-- Fetch Card -->
+        <div class="subject-card">
+          <h3>Fetch Notes</h3>
+
+          <p>Fetch API &amp; Working with REST APIs.</p>
+
+          <a
+            href="https://app.notion.com/p/fetch-3f1050dc76c7808cab84dcf0c22a623e?source=copy_link"
+            class="open-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open Notes →
+          </a>
+        </div>
+
+        <!-- JavaScript Card -->
+        <div class="subject-card">
+          <h3>JavaScript Notes</h3>
+
+          <p>Learn JavaScript step by step.</p>
+
+          <a href="javascript-notes.html" class="open-btn"> Open Notes → </a>
+        </div>
+
+        <!-- Tailwind Card -->
+        <div class="subject-card">
+          <h3>Tailwind CSS</h3>
+
+          <p>Learn utility-first CSS styling.</p>
+
+          <a href="tailwind-notes.html" class="open-btn"> Open Notes → </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
   </body>
 </html>
