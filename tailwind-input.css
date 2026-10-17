@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Disable automatic HTML element resets */
+@layer theme, base, components, utilities;
+
+/* Scan HTML files for Tailwind classes */
+@source "./index.html";
+@source "./tailwind-notes.html";
+@source "./javascript-notes.html";
+@source "./dom-notes.html";
+@source "./css-notes.html";
+@source "./git-notes.html";
+@source "./html-notes.html";
